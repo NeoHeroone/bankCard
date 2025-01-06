@@ -57,6 +57,7 @@ span {
 .ism {
   font-size: 40px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 .plus {
