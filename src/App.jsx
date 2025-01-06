@@ -34,7 +34,7 @@ function App() {
     <div className="app">
       <header className="container container-user">
         <div className="content">
-          <span>{userName[0].toLocaleUpperCase()}</span>
+          <span>{userName[0].toLocaleUpperCase(userName[0])}</span>
           <div>
             <p className="salom">Salom</p>
             <p className="ism">{userName}</p>
